@@ -12,9 +12,9 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
 
   gem.add_dependency "multi_json", "~> 1.0"
-  gem.add_dependency "rspec", "~> 2.0"
+  gem.add_dependency "rspec", "> 2.0"
 
-  gem.add_development_dependency "bundler", "~> 1.0"
+  gem.add_development_dependency "bundler", "> 1.0"
 
   gem.files         = `git ls-files`.split($\)
   gem.test_files    = gem.files.grep(/^(features|spec)/)
